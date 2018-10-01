@@ -1,15 +1,10 @@
 # jenkins-docker
-
-
-
-## Goal
-```text
 젠킨스로 CI를 구성하기 위한 설정(Dev환경 구성완료)
-```
 
-## Expected Issue
+
+## Run conatiner
 ```
-1. Set up Jenkins Webhook 
+    $ docker run -p 8080:8080 -v /docker/jenkins:/var/jenkins_home -u root jenkins 
 ```
 
 # Links
